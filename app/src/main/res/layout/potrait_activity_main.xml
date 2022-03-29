@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".lab6b.PotraitActivityMainActivity">
 
-    <GridView
-        android:id="@+id/listView"
+    <fragment
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.myapplication.lab6b.PotraitFragmentItem"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="24dp"
+        tools:ignore="MissingConstraints">
+    </fragment>
 </androidx.constraintlayout.widget.ConstraintLayout>
